@@ -3,17 +3,17 @@
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 .nav-logo {
-  display: inline-flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 40px;
 }
 .nav-link {
